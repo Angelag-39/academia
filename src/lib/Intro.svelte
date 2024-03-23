@@ -19,7 +19,10 @@
 	<div class="intro__wrapper wrap">
 		<h1>{@html title} <img src="{icon}" alt=""></h1>
 		<p>{content}</p>
+
+		{ #if btn && href}
 		<a class="btn" href="{href}">{btn}</a>
+		{/if}
 	</div>
 </section>
 
