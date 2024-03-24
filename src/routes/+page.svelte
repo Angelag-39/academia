@@ -7,7 +7,7 @@
 	content=" A Academia Local está pronto 
 	 para te ajudar a chegar mais longe e alcançar sua melhor performance."
 	btn="Sobre"
-	href="/"
+	href="/sobre"
 	img="musculacao"
 	icon="muscle"
 	/>	
