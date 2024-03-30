@@ -39,6 +39,11 @@
   a {
     display: inline-block;
     text-decoration: none;
+    text-underline-offset:2px ;
+  }
+  ul {
+    list-style:none ;
+    padding-left: unset;
   }
   
   h1,h2,h3 {
@@ -48,7 +53,6 @@
   }
   h1{
     font-size: calc(36 / 16 * 1rem);
-    
   }
   /* clases*/
   .wrap {
@@ -68,3 +72,4 @@
     color:var(--black);
     transition: 125ms;
   }
+  
