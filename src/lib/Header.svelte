@@ -10,18 +10,27 @@
             <li><a href="/">Home</a></li>
             <li><a href="/sobre">Sobre</a></li>
             <li><a href="/modalidades">Modalidades</a></li>
-            <li class="btn header__btn"><a href="#contato">Contato</a></li>
+            <li class="header__btn"><a href="#contato">Contato</a></li>
         </ul>
     </nav>
 
 </div> 
 </header>
+
 <style>
     .header__btn {
-        border-color: var(--feat);
+    color: #fff;
+    border: 1px solid var(--feat);
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: 250ms;
+       
     }
-    .header__btn:hover {
-        border-color: #ffff;
+    .header__btn:hover{
+        /*background-color: #fff;
+    color:var(--black);*/
+    border-color: #fff;
+    transition: 125ms;
     }
     .header__wrapper {
        display: flex; 
@@ -42,7 +51,8 @@
     a{
         color: #ffff;
     }
-    a:not(.btn) :hover {
+    a:hover {
         text-decoration: underline;
     }
 </style>
+

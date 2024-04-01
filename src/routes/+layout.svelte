@@ -2,9 +2,11 @@
     import '../global.css';
     import "@fontsource-variable/roboto-condensed";
     import "@fontsource-variable/cabin"
-    import Page from './+page.svelte';
+    import Header from '$lib/Header.svelte'
 </script>
 
-<slot
-Page
-/>
+
+<Header/>
+<slot/>
+
+
