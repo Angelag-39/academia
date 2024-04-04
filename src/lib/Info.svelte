@@ -1,5 +1,6 @@
 <script>
 	import IconPlus from "$lib/assets/IconPlus.svelte";
+    import autoAnimate from '@formkit/auto-animate';
   
 
   export let question;
@@ -11,7 +12,7 @@
   }
 </script>
 
-<div class="info" role="button" on:click={handleActive} on:keydown={handleActive} tabindex="0">
+<div class="info" role="button" on:click={handleActive} on:keydown={handleActive} tabindex="0" use:autoAnimate>
   <div class="question" class:active={active}>
     <h3>{question}</h3>
     <IconPlus/>
