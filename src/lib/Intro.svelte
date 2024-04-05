@@ -1,6 +1,8 @@
 <script>
     import imgMusculacao from '$lib/assets/musculacao.jpg';
 	import imgExercicios from '$lib/assets/exercicios.jpg';
+	import imgAlongamento from '$lib/assets/alongamento.jpg';
+
 	import iconMuscle from '$lib/assets/icon-muscle.png'
 	
 	import iconWeight from '$lib/assets/icon-weight.png';
@@ -8,12 +10,14 @@
     export let title ="Você está pronto<br> para o desafio?";
 	export let content = "A Academia Local está pronto para te ajudar a chegar mais longe e alcançar sua melhor performance.";
 	export let btn ="saiba mais";
-	export let href="/";
+	export let href="false";
+	
 	
 
     export let img = 'musculacao';
 		if(img === 'musculacao') img = imgMusculacao;
 		if(img === 'exercicios' ) img = imgExercicios;
+		if(img === 'alongamento' ) img = imgAlongamento;
 
     export let icon;
 		if( icon === 'muscle')icon = iconMuscle;
